@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+}
+
+.black {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+}
+
+.top {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.workingarea {
+  width: 85%;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 100vh;
+}
+
+
+.nav {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+}
+ 
+.nav-left img {
+  height: 60px;
+  background-color: transparent;
+  /* mix-blend-mode: color-burn; */
+  /* mix-blend-mode: difference; */
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: #fff;
+  pointer-events: all;
+  padding-left: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-right a {
+  pointer-events: all;
+  padding-left: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 50%;
+  left: 0;
+}
+
+.hero-left {
+  min-width: 50%;
+}
+
+.hero-right {
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hero-left .elem {
+  position: relative;
+  height: 20vh;
+  line-height: .9;
+  overflow: hidden;
+}
+
+.hero-left .elem h1:nth-child(1) {
+  top: 0;
+}
+
+
+
+.hero-left .elem h1 {
+  font-family: "kajiro";
+  color: #fff;
+  font-weight: 100;
+  font-size: 22vh;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.hero-left button {
+  margin-top: 5vh;
+  font-family: "kajiro";
+  font-weight: 100;
+  height: 5vw;
+  pointer-events: all;
+  width: 10vw;
+  font-size: 3vw;
+}
+
+.hero-right p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  color: #fff;
+}
+
+.img-div {
+  width: 100%;
+  height: 150px;
+  background-image: url(https://us.123rf.com/450wm/tverdohlib/tverdohlib2005/tverdohlib200500759/152494247-sensual-lady-beautiful-woman-face-beautiful-spa-model-girl-with-perfect-fresh-clean-skin.jpg?ver=6);
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.p1 {
+  margin-bottom: 30px;
+}
+
+.p2 {
+  margin-bottom: 60px;
+}
+
+.back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
